@@ -34,7 +34,7 @@ public class Main {
                 case 1 -> menuConversor();
                 case 2 -> menuVectores();
                 case 3 -> menuPuntos();
-                case 0 -> System.out.println("\nCerrando sistema... ¡Éxito en la BUAP!");
+                case 0 -> System.out.println("\nCerrando sistema...");
                 default -> System.out.println("\n[ERROR] Opción no válida.");
             }
         } while (opcion != 0);
